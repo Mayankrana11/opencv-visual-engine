@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0f172a;
+  --color-card-bg: #1e293b;
+  --color-accent: #6366f1;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 min-h-screen;
+  font-family: 'Inter', sans-serif;
+}
+
+.glass-card {
+  @apply bg-slate-900/50 backdrop-blur-md border border-slate-800 rounded-2xl;
+}
+
+.progress-bar-bg {
+  @apply w-full bg-slate-800 rounded-full h-2.5;
+}
+
+.progress-bar-fill {
+  @apply bg-indigo-500 h-2.5 rounded-full transition-all duration-1000 ease-out;
+}

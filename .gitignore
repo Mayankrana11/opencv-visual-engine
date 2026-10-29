@@ -28,3 +28,6 @@ dist-ssr
 
 # Uploads
 backend/uploads
+
+# Launch
+run.bat

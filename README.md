@@ -1,4 +1,4 @@
-# VirallQ — Instagram Post Analyzer
+# VirallQ  Image Analyser
 
 VirallQ is a polished demonstration project that analyzes Instagram posts to predict their viral potential. It combines objective image processing metrics with subjective AI vision analysis.
 
